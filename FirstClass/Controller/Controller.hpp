@@ -6,8 +6,21 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 
-
-
 #include <iostream>
+using namespace std;
+//Classes are only in defined in a Header files
+//Classes only get prototypes
+//Visibility is handled in the Header file
+//Variables/Method/Data Members/Templets have to be defined in Header files
+class Controller{
+
+//Dont have multiple Private/Public/Protected sections
+public:
+    int specialNumber;
+//private:
+    Controller();
+    void start();
+    
+};
 
 #endif /* Controller_hpp */
